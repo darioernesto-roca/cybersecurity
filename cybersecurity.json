@@ -1,0 +1,57 @@
+{
+  "Cybersecurity": {
+    "Introduction to Cybersecurity": {
+      "Module 1": {
+        "title": "What is Cybersecurity?",
+        "introduction": {
+          "cost_of_data_breach": "USD 4.35 million (2023, IBM Security)",
+          "cybercrime_cost": "USD 8 trillion (2023, Cybersecurity Ventures)",
+          "importance": "Digital transformation increases cybersecurity risks."
+        },
+        "definition": "Cybersecurity is the practice of protecting digital systems, networks, and data from cyber threats.",
+        "components": {
+          "digital_security": "Protecting networks, systems, and data.",
+          "human_security": "Training, awareness, and policies to prevent human-related risks.",
+          "physical_security": "Protecting hardware, infrastructure, and physical access."
+        },
+        "cia_triad": {
+          "confidentiality": {
+            "definition": "Ensuring data access is restricted to authorized users.",
+            "importance": "Confidentiality is crucial for sensitive data like government intelligence, medical records, and proprietary software.",
+            "security_controls": ["Encryption", "Access control", "Multi-factor authentication", "Patch management"]
+          },
+          "integrity": {
+            "definition": "Ensuring data accuracy and preventing unauthorized modifications.",
+            "importance": "Integrity is essential for financial transactions, audit logs, and business reports.",
+            "security_controls": ["Checksums", "Access controls", "User permissions", "Data backups", "Audit trails"]
+          },
+          "availability": {
+            "definition": "Ensuring systems and data are accessible when needed.",
+            "importance": "Availability is crucial for online retailers, banking services, and cloud applications.",
+            "security_controls": ["Redundant systems", "Data backups", "Antimalware software", "Firewalls", "Disaster recovery plans"]
+          }
+        },
+        "controls": {
+          "definition": "Controls are safeguards or countermeasures to avoid, detect, counteract, or minimize security risks to digital and physical assets.",
+          "types": {
+            "confidentiality": ["Encryption", "Access control", "Patch management"],
+            "integrity": ["Checksums", "User permissions", "Audit trails"],
+            "availability": ["Redundant systems", "Antimalware software", "Disaster recovery plans"]
+          }
+        },
+        "key_takeaway": "The art of war teaches us to rely not on the likelihood of the enemy’s not coming, but on our own readiness to receive him. – Sun Tzu",
+        "learning_objectives": [
+          "Define cybersecurity and its importance.",
+          "Describe the three components of cybersecurity.",
+          "Identify the objectives of the CIA triad.",
+          "List examples of security controls for each CIA objective."
+        ],
+        "next_steps": [
+          "Continue to Module 2: Common Cybersecurity Threats.",
+          "Research recent cybersecurity breaches and analyze their impact.",
+          "Explore cybersecurity frameworks such as NIST, ISO 27001, and CIS Controls."
+        ]
+      }
+    }
+  }
+}

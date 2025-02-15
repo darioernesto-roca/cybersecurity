@@ -52,6 +52,47 @@
           "Explore cybersecurity frameworks such as NIST, ISO 27001, and CIS Controls."
         ]
       }
+    },
+    "Key Elements of Cybersecurity": {
+      "Module 2": {
+        "title": "Key Elements of Cybersecurity",
+        "introduction": "Cybersecurity relies on multiple approaches to secure information assets effectively.",
+        "key_elements": {
+          "education": "Building awareness through training to reduce risky behaviors and increase security compliance.",
+          "process": "Ensuring security is integrated into organizational workflows through clear, consistent, and accessible procedures.",
+          "technology": "Utilizing encryption, network defenses, and anti-malware to protect assets while balancing usability."
+        },
+        "technology_examples": [
+          {
+            "name": "Automated patch management",
+            "business_benefit": "All software is up to date",
+            "perceived_drawback": "Interruptions to use of device",
+            "undesirable_user_response": "User does not power down devices"
+          },
+          {
+            "name": "High complexity mandatory passwords",
+            "business_benefit": "Harder for attackers to guess passwords",
+            "perceived_drawback": "Tedious to use",
+            "undesirable_user_response": "Using predictable patterns like 'P@ssw0rd!'"
+          },
+          {
+            "name": "Mandatory password expiration every 30 days",
+            "business_benefit": "Prevents long-term password compromise",
+            "perceived_drawback": "Predictably repetitive",
+            "undesirable_user_response": "Using sequential passwords (e.g., PasswordJan, PasswordFeb)"
+          },
+          {
+            "name": "Encrypted emails",
+            "business_benefit": "Prevents attackers from reading messages in transit",
+            "perceived_drawback": "Additional configuration complexity",
+            "undesirable_user_response": "Disabling encryption features"
+          }
+        ],
+        "learning_objectives": [
+          "Describe the key elements of cybersecurity: education, process, and technology.",
+          "Classify tasks by using the key elements of cybersecurity."
+        ]
+      }
     }
   }
 }

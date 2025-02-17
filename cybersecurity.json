@@ -62,35 +62,68 @@
           "process": "Ensuring security is integrated into organizational workflows through clear, consistent, and accessible procedures.",
           "technology": "Utilizing encryption, network defenses, and anti-malware to protect assets while balancing usability."
         },
-        "technology_examples": [
-          {
-            "name": "Automated patch management",
-            "business_benefit": "All software is up to date",
-            "perceived_drawback": "Interruptions to use of device",
-            "undesirable_user_response": "User does not power down devices"
+        "DevOps": {
+          "definition": "DevOps is an approach where development and operations teams collaborate to deliver software efficiently.",
+          "components": {
+            "development": "Managing code, writing updates, and maintaining software repositories.",
+            "it_operations": "Setting up and managing infrastructure, including hardware, cloud, and software environments.",
+            "speed": "Delivering updates quickly through continuous deployment instead of large releases.",
+            "quality": "Ensuring security, performance, and stability in software development."
           },
-          {
-            "name": "High complexity mandatory passwords",
-            "business_benefit": "Harder for attackers to guess passwords",
-            "perceived_drawback": "Tedious to use",
-            "undesirable_user_response": "Using predictable patterns like 'P@ssw0rd!'"
+          "culture": {
+            "collaboration": "Breaking silos between teams and encouraging shared responsibility for security and quality.",
+            "agile_vs_waterfall": {
+              "waterfall": "A linear approach with sequential steps like planning, development, testing, and deployment.",
+              "agile": "An iterative process with sprints that include continuous testing and client feedback."
+            }
           },
-          {
-            "name": "Mandatory password expiration every 30 days",
-            "business_benefit": "Prevents long-term password compromise",
-            "perceived_drawback": "Predictably repetitive",
-            "undesirable_user_response": "Using sequential passwords (e.g., PasswordJan, PasswordFeb)"
-          },
-          {
-            "name": "Encrypted emails",
-            "business_benefit": "Prevents attackers from reading messages in transit",
-            "perceived_drawback": "Additional configuration complexity",
-            "undesirable_user_response": "Disabling encryption features"
+          "microservices": "Breaking applications into smaller services for easier maintenance and updates.",
+          "automation": "Using tools to automate testing, security, and infrastructure monitoring.",
+          "ci_cd": {
+            "continuous_integration": "Regularly merging small code changes and running automated tests.",
+            "continuous_delivery": "Ensuring code is always in a deployable state, reducing human error and improving security."
           }
-        ],
+        },
+        "DevSecOps": {
+          "definition": "DevSecOps integrates security at every stage of the software development lifecycle.",
+          "components": {
+            "shared_responsibility": "Developers, operations, and security teams work together to secure applications.",
+            "speed_quality": "Security is embedded into development, ensuring secure and high-quality updates.",
+            "security_checks": ["Threat modeling", "Vulnerability scans", "SAST", "DAST", "Secrets detection", "Security unit tests", "Security monitoring"]
+          },
+          "automation": "Automates security validation and compliance checks in CI/CD pipelines."
+        },
         "learning_objectives": [
           "Describe the key elements of cybersecurity: education, process, and technology.",
-          "Classify tasks by using the key elements of cybersecurity."
+          "Classify tasks by using the key elements of cybersecurity.",
+          "Understand the role of DevOps and DevSecOps in secure software development."
+        ]
+      }
+    },
+    "Risk Management": {
+      "Module 3": {
+        "title": "Risk Management",
+        "introduction": "Risk is the possibility of something happening with a negative consequence. Managing risk is crucial in cybersecurity to mitigate potential threats.",
+        "risk_valuation": {
+          "equation": "Risk value = Consequence × Likelihood",
+          "consequence": "Impact and associated damages of the risk.",
+          "likelihood": "Frequency or probability of the risk occurring.",
+          "cybersecurity_factors": "Likelihood = Adversary capability × Adversary motivation × Vulnerability severity."
+        },
+        "risk_response": {
+          "acceptance": "The organization acknowledges and accepts the risk without taking further action.",
+          "reduction": "The organization mitigates risk by implementing security measures to reduce likelihood or consequence.",
+          "transference": "The organization shifts the risk to a third party, such as through insurance or outsourcing.",
+          "rejection": "The organization decides to avoid the risk entirely by changing business operations."
+        },
+        "risk_appetite": {
+          "high_risk": "Organizations with a high risk appetite accept more risks to pursue greater rewards, often using advanced but vulnerable technologies.",
+          "low_risk": "Organizations with a low risk appetite prioritize security, stability, and protection over innovation to minimize risks."
+        },
+        "learning_objectives": [
+          "Choose the best questions to answer when determining risk value.",
+          "Describe the four responses that organizations can choose to address risk.",
+          "Contrast high and low risk appetites."
         ]
       }
     }
